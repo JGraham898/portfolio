@@ -145,11 +145,6 @@ header img {
 }
 
 
-#portfolio h3 {
- font-size: 22px;
-    text-transform: uppercase
-}
-
 #portfolio p {
  font-size: 20px;
 }
@@ -164,28 +159,45 @@ header img {
 .portfolio-link {
     display: flex;
     align-items: center;
-    padding: 10px;
-    min-height: 200px;
+    justify-content: space-between;
+    height: 300px;
+    height: 300px;
+    padding-left: 50px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .portfolio-link::after {
     display: none;
 }
 
+.portfolio-link:hover h3 {
+    text-decoration: underline;
+}
+
+.portfolio-link h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.portfolio-link div {
+    max-width: 250px;
+}
+
 .portfolio-link img {
-    height: 100px;
-    margin-right: 50px;
+    height: 100%;
+    margin-right: 10px;
 }
 
 @media only screen and (min-width: 800px) {
     .portfolio-link img {
-        margin-left: 20px;
+        margin-right: 70px;
     }
 }
 
 .portfolio-link.one {
-    background-color: #f5dadf;
+    background-color: darkorange;
 }
 
 .portfolio-link.two {
@@ -269,7 +281,14 @@ article h1 {
 
 @media only screen and (min-width: 800px) {
     .portfolio-section-text {
-   padding-left: 20px;
+        padding-left: 20px;
     }
 }
 
+figcaption {
+    font-style: italic;
+}
+
+b {
+    font-weight: 600;
+}
