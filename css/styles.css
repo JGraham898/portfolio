@@ -199,15 +199,15 @@ header img {
 }
 
 .portfolio-link.one {
-    background-color: darkorange;
+    background-color:  #FFECB3;
 }
 
 .portfolio-link.two {
-    background-color: #fee992;
+    background-color:  #C8E6C9;
 }
 
 .portfolio-link.three {
-    background-color: #9ae5cf;
+    background-color: #C5CAE9;
 }
 
 footer {
@@ -262,10 +262,17 @@ article h1 {
     content: "";
     height: 4px;
     width: 80px;
-    background-color: darkorange;
     position: absolute;
     bottom: -10px;
     left: 0;
+}
+
+.one .portfolio-section h2::after {
+    background-color: #FFECB3;
+}
+
+.two .portfolio-section h2::after {
+    background-color:  #C8E6C9;
 }
 
 .portfolio-section h3 {
