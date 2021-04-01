@@ -188,6 +188,8 @@ header img {
 .portfolio-link img {
     height: 100%;
     margin-right: 10px;
+    transform: rotate(20deg);
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 800px) {
@@ -292,3 +294,4 @@ figcaption {
 b {
     font-weight: 600;
 }
+
