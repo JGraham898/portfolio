@@ -131,12 +131,12 @@ header img {
     }
 }
 
-#portfolio {
+.home-section {
     max-width: 800px;
     margin: 0 auto;
 }
 
-#portfolio h2 {
+.home-section h2 {
     margin-left: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -145,7 +145,7 @@ header img {
 }
 
 
-#portfolio p {
+.home-section p {
  font-size: 20px;
 }
 
