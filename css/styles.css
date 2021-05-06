@@ -190,11 +190,18 @@ header img {
     height: 140%;
     margin-right: 10px;
     transform: rotate(20deg);
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .portfolio-link img {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 800px) {
     .portfolio-link img {
-        display: none;
+        margin-right: 70px;
     }
 }
 
