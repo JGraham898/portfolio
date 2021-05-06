@@ -194,7 +194,7 @@ header img {
 
 @media only screen and (min-width: 800px) {
     .portfolio-link img {
-        margin-right: 70px;
+        display: none;
     }
 }
 
